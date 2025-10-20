@@ -1,0 +1,7 @@
+# ---- Developer Tooling ----
+pre-commit>=4.1.0
+black>=25.1.0
+isort>=6.0.0
+flake8>=8.1.0
+pytest>=9.0.0
+pytest-cov>=5.0.0
