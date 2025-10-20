@@ -1,0 +1,87 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+*.spec
+
+# ---- Environments ----
+.venv/
+env/
+venv/
+ENV/
+.ipynb_checkpoints/
+.env
+*.env
+*.ini
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_save
+*.ipynb.tmp
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ---- Logs ----
+*.log
+logs/
+debug.log
+
+# ---- VSCode / IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS Files ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ---- Cache ----
+.cache/
+__pycache__/
+*.pyc
+
+# ---- Notebooks ----
+*.ipynb_checkpoints
+
+# ---- Project Specific ----
+# Do not commit API keys or secrets
+.env
+*.env
+
+# Generated artifacts
+outputs/
+assets/temp/
+temp/
+tmp/
+
+# ---- Node / Frontend (if any) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ---- PyCharm ----
+.idea/
+*.iml
+
+# ---- Coverage / Testing ----
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+.pytest_cache/
+
+# ---- Docker ----
+*.pid
+docker-compose.override.yml
