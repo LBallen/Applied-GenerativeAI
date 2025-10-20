@@ -1,0 +1,22 @@
+# ---- Core GenAI / LangChain stack ----
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-openai>=0.1.0
+langchain-text-splitters>=0.2.0
+langchain-chroma>=0.1.0
+
+# OpenAI client (required by langchain-openai)
+openai>=1.30.0
+
+# ---- Vector stores ----
+faiss-cpu>=1.7.4
+
+# ---- UI frameworks ----
+gradio>=4.0
+gradio_client>=0.14
+
+# ---- Utilities ----
+beautifulsoup4>=4.12.0
+python-dotenv>=1.0.0
+ipywidgets>=8.0.0
+requests>=2.31.0
