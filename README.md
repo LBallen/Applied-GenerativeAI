@@ -14,13 +14,14 @@ This monorepo is structured for scalability: each tool (chatbot, agent, or pipel
 
 ---
 
-## ⚙️ Current Tools
+## ⚙️ Current Projects
 
-| Tool | Description | Tech Stack |
-|------|--------------|-------------|
-| 🗂️ [`rag-chatbot`](tools/rag-chatbot/) | Retrieval-Augmented Generation chatbot that answers questions based on live web content. | LangChain, FAISS, GPT-4o-mini, Gradio |
-| 📄 *(Coming Soon)* `pdf-qa` | Upload PDFs and chat directly with the document. | LangChain, Chroma, Streamlit |
-| 🤖 *(Coming Soon)* `agent-lab` | A sandbox for building multi-agent systems with memory and shared context. | LangGraph, OpenAI Functions |
+| Tool                                | Description | Tech Stack                                     |
+|-------------------------------------|--------------|------------------------------------------------|
+| [`rag-chatbot`](tools/rag-chatbot/) | Retrieval-Augmented Generation chatbot that answers questions based on live web content. | LangChain, FAISS, GPT-4o-mini, Gradio          |
+| `Fine-Tuning a LLM`                 | Fine-Tuning RoBERTa on Semantic Similarity (GLUE MRPC) with PEFT/LoRA | Huggingface, Pytorch, Scikit-learn, Matplotlib |
+| *(Coming Soon)* `Placeholder`       |  | LangGraph, OpenAI Functions                    |
+| *(Coming Soon)* `Placeholder`       |  | LangChain, Chroma, Streamlit                   |
 
 ---
 
@@ -37,7 +38,7 @@ Each subproject:
 
 ---
 
-## 🏗️ Repository Structure
+## 🏗️ Repository Structure PLACEHOLDER
 
 ```
 genai-tools/
